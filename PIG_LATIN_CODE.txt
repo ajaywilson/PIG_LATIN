@@ -1,0 +1,27 @@
+var ='ay'
+
+T=int(input())
+
+for i in range(T):
+
+   data = input()
+
+   x=data.split()
+
+   for i in range (len(x)):
+
+       new_data=x[i]
+
+       if new_data[0]=='a' or new_data[0]=='e' or new_data[0]=='i' or new_data[0]=='o' or new_data[0]=='u' or new_data[0]=='A' or new_data[0]=='E' or new_data[0]=='I' or new_data[0]=='O'or new_data[0]=='U' :
+
+            print(x[i]+var,end=' ')
+ 
+       else:   
+  
+          new = new_data[0]
+    
+            new1= new_data[1:len(x[i])]
+   
+            print(new1 +new+var,end=' ')
+ 
+    print("\n")
